@@ -9,5 +9,4 @@ def calculate_dot_product(vec1, vec2):
 	Returns:
 		The dot product of the two vectors.
 	"""
-	if len(vec1) == len(vec2):
-		return sum(a*b for a,b in zip(vec1,vec2))
+	return sum(vec1*vec2)
