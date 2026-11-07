@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T23:47:22.248Z",
+  "generated_at": "2026-11-07T23:50:01.551Z",
   "items": {
     "problem:1": {
       "kind": "problem",
@@ -88,9 +88,9 @@
       "url": "https://www.deep-ml.com/problems/4",
       "path": "problems/0004-calculate-mean-by-row-or-column",
       "first_solved_at": "2026-09-18T14:32:50.605Z",
-      "last_pushed_at": "2026-09-18T14:32:50.605Z",
+      "last_pushed_at": "2026-11-07T23:50:00.991Z",
       "language": "python",
-      "lines": 17
+      "lines": 8
     },
     "problem:5": {
       "kind": "problem",
