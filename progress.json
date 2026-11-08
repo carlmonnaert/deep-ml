@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T19:14:24.968Z",
+  "generated_at": "2026-11-08T19:20:59.760Z",
   "items": {
     "problem:1": {
       "kind": "problem",
@@ -564,6 +564,17 @@
       "path": "math/0035-matrix-calculus-identities",
       "first_solved_at": "2026-11-08T19:14:24.389Z",
       "last_pushed_at": "2026-11-08T19:14:24.389Z"
+    },
+    "math:3": {
+      "kind": "math",
+      "id": "3",
+      "title": "Neural Network Derivatives",
+      "difficulty": "medium",
+      "category": "Calculus for Machine Learning",
+      "url": "https://www.deep-ml.com/math-problems/3",
+      "path": "math/0003-neural-network-derivatives",
+      "first_solved_at": "2026-11-08T19:20:59.169Z",
+      "last_pushed_at": "2026-11-08T19:20:59.169Z"
     }
   }
 }
