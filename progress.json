@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T00:11:07.637Z",
+  "generated_at": "2026-11-08T17:06:52.291Z",
   "items": {
     "problem:1": {
       "kind": "problem",
@@ -475,6 +475,19 @@
       "path": "problems/0195-matrix-determinant-trace",
       "first_solved_at": "2026-11-08T00:04:50.680Z",
       "last_pushed_at": "2026-11-08T00:04:50.680Z",
+      "language": "python",
+      "lines": 15
+    },
+    "problem:331": {
+      "kind": "problem",
+      "id": "331",
+      "title": "Check Linear Independence of Vectors",
+      "difficulty": "easy",
+      "category": "Linear Algebra",
+      "url": "https://www.deep-ml.com/problems/331",
+      "path": "problems/0331-check-linear-independence-of-vectors",
+      "first_solved_at": "2026-11-08T17:06:51.763Z",
+      "last_pushed_at": "2026-11-08T17:06:51.763Z",
       "language": "python",
       "lines": 15
     }
