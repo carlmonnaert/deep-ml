@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**81** solved · 51 problems · 0 labs · 30 math
+**82** solved · 51 problems · 0 labs · 31 math
 
 ![Coverage](./coverage.svg)
 
@@ -98,6 +98,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Vector Norms and Linear Independence](https://www.deep-ml.com/math-problems/8) | medium | 2026-11-07 | [solution](math/0008-vector-norms-and-linear-independence) |
 | [Woodbury, Sherman-Morrison and the Matrix Determinant Lemma](https://www.deep-ml.com/math-problems/410) | medium | 2026-11-08 | [solution](math/0410-woodbury-sherman-morrison-and-the-matrix-determinant-lemma) |
 | [Eigendecomposition and SVD](https://www.deep-ml.com/math-problems/16) | hard | 2026-11-09 | [solution](math/0016-eigendecomposition-and-svd) |
+| [Matrix Decompositions: LU and QR](https://www.deep-ml.com/math-problems/15) | hard | 2026-11-09 | [solution](math/0015-matrix-decompositions-lu-and-qr) |
 
 ---
 
