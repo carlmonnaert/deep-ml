@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T03:25:57.888Z",
+  "generated_at": "2026-11-09T03:35:39.681Z",
   "items": {
     "problem:1": {
       "kind": "problem",
@@ -934,6 +934,19 @@
       "last_pushed_at": "2026-11-09T03:25:57.255Z",
       "language": "python",
       "lines": 22
+    },
+    "problem:1139": {
+      "kind": "problem",
+      "id": "1139",
+      "title": "Simulate Two-Dice Sum Distribution",
+      "difficulty": "easy",
+      "category": "Probability",
+      "url": "https://www.deep-ml.com/problems/1139",
+      "path": "problems/1139-simulate-two-dice-sum-distribution",
+      "first_solved_at": "2026-11-09T03:35:38.811Z",
+      "last_pushed_at": "2026-11-09T03:35:38.811Z",
+      "language": "python",
+      "lines": 8
     }
   }
 }
