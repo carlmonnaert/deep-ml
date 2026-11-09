@@ -147,12 +147,9 @@
     var lines = items.reduce(function (a, r) { return a + (r.lines || 0); }, 0);
     var streak = longestStreak(state.days);
 
-    // Five slots: the second goes to math when no labs are solved, rather
-    // than showing a 0 while the math work is left uncounted.
-    state.railKind = byKind("lab") || !byKind("math") ? "lab" : "math";
     var rail = [
       [n(byKind("problem")), "problems"],
-      [n(byKind(state.railKind)), state.railKind === "lab" ? "labs" : "math"],
+      [n(byKind("lab")), "labs"],
       [n(hard), "hard solved"],
       [n(streak) + (streak === 1 ? " day" : " days"), "longest streak"],
       [lines ? n(lines) : String(state.days.length), lines ? "lines written" : "active days"]
@@ -223,7 +220,7 @@
     var cells = $("rail").children;
     if (cells.length >= 3) {
       cells[0].children[0].textContent = n(list.filter(function (r) { return r.kind === "problem"; }).length);
-      cells[1].children[0].textContent = n(list.filter(function (r) { return r.kind === state.railKind; }).length);
+      cells[1].children[0].textContent = n(list.filter(function (r) { return r.kind === "lab"; }).length);
       cells[2].children[0].textContent = n(hard);
     }
   }
@@ -309,14 +306,8 @@
       var nEl = $("map").querySelector('[data-row="' + i + '"]');
       var pEl = $("map").querySelector('[data-pct="' + i + '"]');
       if (nEl) nEl.innerHTML = "<b>" + n(solved) + "</b>/" + n(row.list.length);
-      if (pEl) pEl.textContent = pctLabel(solved, row.list.length);
+      if (pEl) pEl.textContent = Math.round((solved / row.list.length) * 100) + "%";
     });
-  }
-
-  /** Whole percent, but a started row never rounds down to 0%. */
-  function pctLabel(solved, total) {
-    var p = total ? (solved / total) * 100 : 0;
-    return solved > 0 && p < 1 ? "<1%" : Math.round(p) + "%";
   }
 
   /* ---------- momentum ---------- */
@@ -371,8 +362,7 @@
     var lrows = Object.keys(langs).map(function (l) { return { label: l, cls: "flat", count: langs[l] }; })
       .sort(function (a, b) { return b.count - a.count; }).slice(0, 5);
     if (!lrows.length) { $("langpanel").classList.add("gone"); return; }
-    var coded = Object.keys(langs).reduce(function (a, l) { return a + langs[l]; }, 0);
-    $("languages").innerHTML = bars(lrows, coded);
+    $("languages").innerHTML = bars(lrows, items.length);
   }
 
   function bars(rows, total) {
@@ -415,8 +405,7 @@
       var list = state.items.filter(function (r) { return r.kind === kind; });
       if (!list.length) { el.parentElement.classList.add("gone"); return; }
       list.sort(function (a, b) { return a.title.localeCompare(b.title); });
-      var TOTAL_KEY = { lab: "labs", math: "math" };
-      $(kind + "count").textContent = n(list.length) + " of " + n(CFG.totals[TOTAL_KEY[kind]] || list.length);
+      $(kind + "count").textContent = n(list.length) + " of " + n(CFG.totals[kind + "s"] || list.length);
       el.innerHTML = list.map(function (r) {
         var d = (r.difficulty || "unrated").toLowerCase();
         return '<li><a class="it" href="' + esc(state.repoTree + "/" + r.path) + '">' +
