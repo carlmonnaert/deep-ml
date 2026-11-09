@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**77** solved · 50 problems · 0 labs · 27 math
+**78** solved · 51 problems · 0 labs · 27 math
 
 ![Coverage](./coverage.svg)
 
@@ -19,6 +19,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Calculate Portfolio Variance](https://www.deep-ml.com/problems/183) | easy | 2026-09-17 | [solution](problems/0183-calculate-portfolio-variance) |
 | [Check Linear Independence of Vectors](https://www.deep-ml.com/problems/331) | easy | 2026-11-08 | [solution](problems/0331-check-linear-independence-of-vectors) |
 | [Compute Posterior Probability using Bayes' Theorem](https://www.deep-ml.com/problems/336) | easy | 2026-11-09 | [solution](problems/0336-compute-posterior-probability-using-bayes-theorem) |
+| [Compute the Cross Product of Two 3D Vectors](https://www.deep-ml.com/problems/118) | easy | 2026-11-09 | [solution](problems/0118-compute-the-cross-product-of-two-3d-vectors) |
 | [Convert Vector to Diagonal Matrix](https://www.deep-ml.com/problems/35) | easy | 2026-09-17 | [solution](problems/0035-convert-vector-to-diagonal-matrix) |
 | [Demonstrate Law of Large Numbers with Sampling](https://www.deep-ml.com/problems/342) | easy | 2026-11-09 | [solution](problems/0342-demonstrate-law-of-large-numbers-with-sampling) |
 | [Derivative of a Polynomial](https://www.deep-ml.com/problems/116) | easy | 2026-11-07 | [solution](problems/0116-derivative-of-a-polynomial) |
