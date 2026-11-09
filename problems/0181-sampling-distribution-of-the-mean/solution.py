@@ -18,5 +18,4 @@ def simulate_clt(num_samples: int, sample_size: int, distribution: str = 'unifor
         x = np.random.exponential(1, size=(num_samples,sample_size))
     else:
         raise ValueError(f'Distribution not supported: {distribution}')
-    means = np.mean(x, axis=1)
-    return np.mean(means)
+    return np.mean(x)
