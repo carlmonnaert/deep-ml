@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**62** solved · 37 problems · 0 labs · 25 math
+**63** solved · 37 problems · 0 labs · 26 math
 
 ![Coverage](./coverage.svg)
 
@@ -72,6 +72,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Matrix Calculus Identities](https://www.deep-ml.com/math-problems/35) | medium | 2026-11-08 | [solution](math/0035-matrix-calculus-identities) |
 | [Matrix Multiplication](https://www.deep-ml.com/math-problems/10) | medium | 2026-11-07 | [solution](math/0010-matrix-multiplication) |
 | [Multivariate Calculus](https://www.deep-ml.com/math-problems/2) | medium | 2026-11-08 | [solution](math/0002-multivariate-calculus) |
+| [Multivariate Gaussians](https://www.deep-ml.com/math-problems/36) | medium | 2026-11-09 | [solution](math/0036-multivariate-gaussians) |
 | [Neural Network Derivatives](https://www.deep-ml.com/math-problems/3) | medium | 2026-11-08 | [solution](math/0003-neural-network-derivatives) |
 | [Orthogonality and Projections](https://www.deep-ml.com/math-problems/14) | medium | 2026-11-07 | [solution](math/0014-orthogonality-and-projections) |
 | [Schur Complements and the Partitioned Inverse](https://www.deep-ml.com/math-problems/409) | medium | 2026-11-08 | [solution](math/0409-schur-complements-and-the-partitioned-inverse) |
