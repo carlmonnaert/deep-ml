@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T02:09:06.282Z",
+  "generated_at": "2026-11-10T02:26:13.911Z",
   "items": {
     "problem:1": {
       "kind": "problem",
@@ -1093,6 +1093,19 @@
       "last_pushed_at": "2026-11-10T02:09:05.473Z",
       "language": "python",
       "lines": 6
+    },
+    "problem:1723": {
+      "kind": "problem",
+      "id": "1723",
+      "title": "Multinomial pmf in Log Space",
+      "difficulty": "easy",
+      "category": "Probability",
+      "url": "https://www.deep-ml.com/problems/1723",
+      "path": "problems/1723-multinomial-pmf-in-log-space",
+      "first_solved_at": "2026-11-10T02:26:13.232Z",
+      "last_pushed_at": "2026-11-10T02:26:13.232Z",
+      "language": "python",
+      "lines": 12
     }
   }
 }
