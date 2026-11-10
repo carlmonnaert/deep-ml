@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**88** solved · 56 problems · 0 labs · 32 math
+**89** solved · 57 problems · 0 labs · 32 math
 
 ![Coverage](./coverage.svg)
 
@@ -34,6 +34,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Linear Regression Using Gradient Descent](https://www.deep-ml.com/problems/15) | easy | 2026-11-07 | [solution](problems/0015-linear-regression-using-gradient-descent) |
 | [Matrix Determinant & Trace](https://www.deep-ml.com/problems/195) | easy | 2026-11-08 | [solution](problems/0195-matrix-determinant-trace) |
 | [Matrix-Vector Dot Product](https://www.deep-ml.com/problems/1) | easy | 2026-09-17 | [solution](problems/0001-matrix-vector-dot-product) |
+| [Pairwise Cosine Similarity Matrix](https://www.deep-ml.com/problems/1072) | easy | 2026-11-10 | [solution](problems/1072-pairwise-cosine-similarity-matrix) |
 | [Poisson Distribution Probability Calculator](https://www.deep-ml.com/problems/81) | easy | 2026-11-09 | [solution](problems/0081-poisson-distribution-probability-calculator) |
 | [Reshape Matrix](https://www.deep-ml.com/problems/3) | easy | 2026-09-18 | [solution](problems/0003-reshape-matrix) |
 | [Sampling Distribution of the Mean](https://www.deep-ml.com/problems/181) | easy | 2026-11-09 | [solution](problems/0181-sampling-distribution-of-the-mean) |
